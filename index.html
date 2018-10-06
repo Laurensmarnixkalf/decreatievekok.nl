@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="De Creatieve Kok" content="De Creatieve Kok - Graphic designer">
+    <meta name="Serena Arianne Kok" content="Serena Arianne Kok">
+    <link rel="icon" href="img/DCK_logo.svg">
+
+        <!-- GA Analytics -->
+
+
+        <!-- Bootstrap CSS CDN
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        -->
+
+        <!-- Bootstrap CSS -->
+        <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css"> -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+
+        <!-- Custom styles -->
+        <link rel="stylesheet" type="text/css" href="css/product.css">
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Bootstrap JS files -->
+        <script src="js/boostrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+
+        <title>De Creatieve Kok</title>
+
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="site-header sticky-top py-1">
+      <div class="container d-flex flex-column flex-md-row justify-content-between">
+        <a href="#" onclick="myFunction()" class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+        </a>
+        <a class="py-2 d-none d-md-inline-block menu" href="index.html">Home</a>
+        <a class="py-2 d-none d-md-inline-block menu" href="about.html">Over mij</a>
+        <a class="py-2 d-none d-md-inline-block menu" href="prijzen.html">Prijzen</a>
+        <!-- <a class="py-2 d-none d-md-inline-block menu" href="werkwijze.html">Hoe ik werk</a> -->
+        <a class="py-2 d-none d-md-inline-block menu" href="contact.html">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Mobile menu -->
+    <ul class="nav flex-column link-color hide-nav" id="mobile-nav">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="about.html">Over mij</a>
+      <a class="nav-link" href="prijzen.html">Prijzen</a>
+      <!-- <a class="nav-link" href="werkwijze.html">Hoe werk ik</a> -->
+      <a class="nav-link" href="contact.html">Contact</a>
+    </ul>
+
+    <!-- MAIN LANDING PAGE -->
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center landing-background">
+      <div class="col-md-5 p-lg-5 mx-auto my-5 main-logo">
+        <img src="content/DCK_logo/DCK_logos_small2.svg">
+      </div>
+      <a class="btn btn-outline-secondary creatievekok" href="mailto:serenashanna@gmail.com?subject=Verzoek%20aan%20de%20creatievekok&body=Beste%20Creatievekok%2C">Hire me!</a>
+    </div>
+
+    <!-- Contact area -->
+    <div class="contact-sat">
+      <p id="img_cont1">
+        <a>Logo ontwerp</a>
+        <a>Huisstijl</a>
+        <a>(Re-)branding</a>
+        <a>UI/UX Design</a>
+        <a>Illustraties</a>
+        <a>Infographics</a>
+        <a>Geboorte/trouwkaartjes</a>
+      </p>
+      <br>
+      <p id="img_cont2">
+        <a href="mailto:serenashanna@gmail.com?subject=Verzoek%20aan%20de%20creatievekok&body=Beste%20Creatievekok%2C"><img src="content/DCK_icoontjes/Mail.svg"></a>
+        <a onclick="telefoon()" href="#"><img src="content/DCK_icoontjes/Bellen.svg"></a>
+        <a onclick="telefoon()" href="#"><img src="content/DCK_icoontjes/Koffie.svg"></a>
+        <a onclick="telefoon()" href="#"><img src="content/DCK_icoontjes/Whatsapp.svg"></a>
+      </p>
+      <p class="lead font-weight-normal nummer-verbergen" id="telefoon" style="background-color: #FD9CBD;">0613907415</p>
+      <p class="lead font-weight-normal">Altijd persoonlijk contact op de manier die jij wil!</p>
+    </div>
+
+    <!-- FIRST ELEMENT -->
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <a href="limbicare.html"><h2 class="display-5">Limbicare</h2></a>
+          <p class="lead">Helping people to be well, and sleep well</p>
+        </div>
+        <div class="project"><img src="content/DCK_projecten/Limbicare.svg" alt="Project 1: Limbicare"></div>
+      </div>
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <a href="paratingle.html"><h2 class="display-5">Paratingle</h2></a>
+          <p class="lead">Wil jij ook schuilen tegen al die prikkels?</p>
+        </div>
+        <div class="project"><img src="content/DCK_projecten/Paratingle.svg" alt="Project 2: Paratingle"></div>
+      </div>
+    </div>
+
+    <!-- SECOND ELEMENT -->
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <a href="meek-it.html"><h2 class="display-5">Meek-it</h2></a>
+          <p class="lead">Hét platform voor en door jonge makers!</p>
+        </div>
+        <div class="project"><img src="content/DCK_projecten/Meek-it.svg" alt="Project 3: Meekit"></div>
+      </div>
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <a href="niceday.html"><h2 class="display-5">NiceDay</h2></a>
+          <p class="lead">Mental care anywhere and everywhere</p>
+        </div>
+        <div class="project"><img src="content/DCK_projecten/NiceDay.svg" alt="Project 4: NiceDay"></div>
+      </div>
+    </div>
+
+    <!-- THIRD ELEMENT -->
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+            <a href="backpack.html"><h2 class="display-5">Mijn rugzakje</h2></a>
+          <p class="lead"> .... en ik</p>
+        </div>
+        <div class="project project5"><img src="content/DCK_projecten/Backpack.svg" alt="Project 7: Backpack"></div>
+      </div>
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <a href="california.html"><h2  class="display-5">California</h2></a>
+          <p class="lead">A pelican paradise</p>
+        </div>
+        <div class="pelican"><img src="content/DCK_projecten/pelican.svg" alt="Project 7: Backpack"></div>
+      </div>
+    </div>
+
+    <!-- Fourth ELEMENT -->
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+            <a href="bookcover-1.html"><h2 class="display-5">Book cover</h2></a>
+          <p class="lead">Tell the story</p>
+        </div>
+        <div class="book1"><img src="content/DCK_projecten/bookcover-2-1.svg" alt="Project 7: Backpack"></div>
+      </div>
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <a href="kaartje-bloem.html"><h2 class="display-5">Trouwkaartje</h2></a>
+          <p class="lead">Voor jullie speciale dag</p>
+        </div>
+        <div class="balloon"><img src="content/DCK_projecten/bloem.svg" alt="Project 6: Balloons"></div>
+      </div>
+    </div>
+
+
+
+    <!-- SIXTH ELEMENT -->
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <a href="posters.html"><h2 class="display-5">Posters</h2></a>
+          <p class="lead">Voor de finishing touch!</p>
+        </div>
+        <div class="poster"><img src="content/DCK_projecten/poster-arizona.svg" alt="Project 5: Balloons"></div>
+      </div>
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <a href="posters.html"><h2 class="display-5">Posters</h2></a>
+          <p class="lead">Voor de finishing touch!</p>
+        </div>
+        <div class="poster"><img src="content/DCK_projecten/poster-yosemite.svg" alt="Project 6: Balloons"></div>
+      </div>
+    </div>
+
+    <!-- FIFTH ELEMENT -->
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <a href="kaartje-hazel.html"><h2 class="display-5">Geboortekaartje Meisje</h2></a>
+          <p class="lead">Een uniek ontwerp voor elk wondertje!</p>
+        </div>
+        <div class="balloon"><img src="content/DCK_projecten/Airballoon_Hazel.svg" alt="Project 5: Balloons"></div>
+      </div>
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <a href="kaartje-tipi.html"><h2  class="display-5">Geboortekaartje Jongetje</h2></a>
+          <p class="lead">A tipi on the plains</p>
+        </div>
+        <div class="tipi"><img src="content/DCK_projecten/Tipi_envelope.svg" alt="Project 8: Tipi"></div>
+      </div>
+    </div>
+
+    <!-- SIXTH ELEMENT -->
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <a href="cartoon.html"><h2 class="display-5">Een cartoon van je helden</h2></a>
+          <p class="lead">Of dat speciale moment waar je helaas geen foto van hebt</p>
+        </div>
+        <div class="poster-cartoon"><img src="content/DCK_projecten/cartoon-poster.svg" alt="Project 6: Balloons"></div>
+      </div>
+
+
+    <!-- FOOTER -->
+    <footer class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mb-2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+          <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Projecten</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="limbicare.html">Limbicare</a></li>
+            <li><a class="text-muted" href="paratingle.html">Paratingle</a></li>
+            <li><a class="text-muted" href="meek-it">Meek-it</a></li>
+            <li><a class="text-muted" href="niceday">NiceDay</a></li>
+            <li><a class="text-muted" href="backpack">Mijn rugzakje</a></li>
+
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Producten & diensten</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="kaartje-hazel.html">Geboortjekaartje meisje</a></li>
+            <li><a class="text-muted" href="kaartje-tim.html">Geboortjekaartje jongen</a></li>
+            <li><a class="text-muted" href="kaartje-tipi.html">Geboortjekaartje tipi</a></li>
+            <li><a class="text-muted" href="posters.html">Posters</a></li>
+            <li><a class="text-muted" href="cartoon.html">Cartoon</a></li>
+            <li><a class="text-muted" href="prijzen.html">Design mogelijkheden</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Info</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="about.html">Over mij</a></li>
+            <li><a class="text-muted" href="contact.html">Contact</a></li>
+            <!-- <li><a class="text-muted" href="hoeikwerk.html">Hoe ik werk</a></li> -->
+            <li><a class="text-muted" href="prijzen.html">Prijzen</a></li>
+          </ul>
+        </div>
+        <!-- <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Team</a></li>
+            <li><a class="text-muted" href="#">Locations</a></li>
+            <li><a class="text-muted" href="#">Privacy</a></li>
+            <li><a class="text-muted" href="#">Terms</a></li>
+          </ul> -->
+        </div>
+      </div>
+    </footer>
+    <script>
+
+    /* Toggle between adding and removing the "hide-nav" and "show-nav" classes to display/hide the mobile-menu when the user clicks on the icon */
+    function myFunction() {
+      var x = document.getElementById('mobile-nav');
+        if (x.classList.contains('hide-nav')) {
+          x.classList.remove('hide-nav');
+          x.classList.add('show-nav');
+          console.log(x.classList);
+        } else {
+          x.classList.remove('show-nav');
+          x.classList.add('hide-nav');
+          console.log(x.classList);
+        }
+    }
+
+    /* The following script will display the phone number when any of the 'call icons' is clicked/tapped */
+    const telefoonSat = document.getElementById('telefoon');
+
+    const telefoon = function() {
+      telefoonSat.classList.toggle('nummer-tonen');
+      console.log('0613907415');
+    }
+
+    </script>
+
+
+  </body>
+</html>
