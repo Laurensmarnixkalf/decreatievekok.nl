@@ -7,12 +7,14 @@
  */
 
 .site-header {
-  background-color: rgba(62, 62, 78, .85);
+  background-color: white;
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
+  opacity: 0.8;
+  display: none;
 }
 .site-header a {
-  color: #f4f4f4;
+  color: #5b5a68;
   transition: ease-in-out color .15s;
 }
 .site-header a:hover {
