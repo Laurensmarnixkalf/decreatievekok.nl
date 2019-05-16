@@ -100,6 +100,15 @@ h2:hover {
   border-color: transparent;
 }
 
+.break-section {
+  background-color: white;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  padding: 25px 0px 0px 0px;
+}
+
 .contact-sat {
   background-color: white;
   width: 100%;
