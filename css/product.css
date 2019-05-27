@@ -15,7 +15,7 @@
 }
 .site-header a {
   color: black;
-  transition: ease-in-out color .15s;
+  transition: ease-in-out color .2s;
 }
 .site-header a:hover {
   color: #5b5a68;
@@ -73,7 +73,7 @@
 h2:hover {
   color: #FD9CBD;
   text-decoration: none;
-  transition: ease-in-out color .15s;
+  transition: ease-in-out color .2s;
 }
 
 @-webkit-keyframes load-background-image {
@@ -97,10 +97,10 @@ h2:hover {
   background-image: url(../content/DCK_header_image/Header_image.png);
   background-repeat: no-repeat;
   background-size: auto 100%;
-  -webkit-animation: 15s ease-out 1 load-background-image; /* Safari 4+ */
-  -moz-animation:  15s ease-out 1 load-background-image; /* Fx 5+ */
-  -o-animation:    15s ease-out 1 load-background-image; /* Opera 12+ */
-  animation:       15s ease-out 1 load-background-image; /* IE 10+, Fx 29+ */
+  -webkit-animation: 2s ease-out 1 load-background-image; /* Safari 4+ */
+  -moz-animation:  2s ease-out 1 load-background-image; /* Fx 5+ */
+  -o-animation:    2s ease-out 1 load-background-image; /* Opera 12+ */
+  animation:       2s ease-out 1 load-background-image; /* IE 10+, Fx 29+ */
 }
 
 .landing-background .main-logo {
