@@ -33,9 +33,39 @@
 
   </head>
   <body>
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="content/DCK_logo/DCK_logos_small2.svg" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
     <!-- NAVBAR -->
-    <nav class="site-header sticky-top py-1">
+    <!-- <nav class="site-header sticky-top py-1">
       <div class="container d-flex flex-column flex-md-row justify-content-between">
         <a href="#" onclick="myFunction()" class="icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -52,23 +82,21 @@
         <a href="index.html"><img class="py-2 d-none d-md-inline-block menu" src="content/DCK_logo/DCK_logos_small2.svg"></a>
         <a class="py-2 d-none d-md-inline-block menu" href="index.html">Home</a>
         <a class="py-2 d-none d-md-inline-block menu" href="about.html">Over mij</a>
-        <!-- <a class="py-2 d-none d-md-inline-block menu" href="prijzen.html">Prijzen</a> -->
-        <!-- <a class="py-2 d-none d-md-inline-block menu" href="werkwijze.html">Hoe ik werk</a> -->
         <a class="py-2 d-none d-md-inline-block menu" href="contact.html">Contact</a>
       </div>
-    </nav>
+    </nav> -->
     
     <!-- Mobile menu -->
-    <ul class="nav flex-column link-color hide-nav" id="mobile-nav">
+    <!-- <ul class="nav flex-column link-color hide-nav" id="mobile-nav">
       <a class="nav-link" href="index.html">Home</a>
       <a class="nav-link" href="about.html">Over mij</a>
       <a class="nav-link" href="prijzen.html">Prijzen</a>
-      <!-- <a class="nav-link" href="werkwijze.html">Hoe werk ik</a> -->
       <a class="nav-link" href="contact.html">Contact</a>
-    </ul>
+    </ul> -->
 
     <!-- MAIN LANDING PAGE -->
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      
       <div id="lb" class="position-relative overflow-hidden text-center landing-background">
         <div class="main-logo">
           <img src="content/DCK_logo/DCK_logos_small2.svg">
@@ -77,6 +105,33 @@
       </div>
     </div>
 
+    <!-- INTRODUCTIE ELEMENT -->
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div class="bg-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+          <div class="my-3 p-3">
+            <a href="meek-it.html">
+              <h2 class="display-5">Hallo! Ik ben Shanna</h2>
+            </a>
+            <p class="lead">Visueel vormgever en Branding professional</p>
+          </div>
+          <div class="project"><img src="content/satte.png" alt="Shanna"></div>
+        </div>
+        <div class="bg-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+          <div class="my-3 p-3">
+            <a href="meek-it.html">
+              <h2 class="display-5">Title</h2>
+            </a>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+              a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+              remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+              Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+              of Lorem Ipsum.
+            </p>
+          </div>
+        </div>
+      </div>
+
     <!-- FIRST TITLE ELEMENT -->
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
       <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
@@ -84,7 +139,7 @@
           <a href="cartoon.html">
             <h2 class="display-5">Recente projecten</h2>
           </a>
-          <p class="lead">Recente projecten waarin ik me volledig heb kunnen storten op Branding en Visuele vormgeving.</p>
+          <p class="lead">Voorbeelden van projecten waarin ik me volledig heb kunnen storten op Branding en Visuele vormgeving.</p>
         </div>
       </div>
     </div>
@@ -207,17 +262,7 @@
     <footer class="container py-5">
       <div class="row">
         <div class="col-12 col-md">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mb-2">
-            <circle cx="12" cy="12" r="10"></circle>
-            <line x1="14.31" y1="8" x2="20.05" y2="17.94"></line>
-            <line x1="9.69" y1="8" x2="21.17" y2="8"></line>
-            <line x1="7.38" y1="12" x2="13.12" y2="2.06"></line>
-            <line x1="9.69" y1="16" x2="3.95" y2="6.06"></line>
-            <line x1="14.31" y1="16" x2="2.83" y2="16"></line>
-            <line x1="16.62" y1="12" x2="10.88" y2="21.94"></line>
-          </svg>
-          <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
+          <small class="d-block mb-3 text-muted">&copy; 2018-2019</small>
         </div>
         <div class="col-6 col-md">
           <h5>Projecten</h5>

@@ -76,31 +76,10 @@ h2:hover {
   transition: ease-in-out color .2s;
 }
 
-@-webkit-keyframes load-background-image {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
-}
-@-moz-keyframes load-background-image {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
-}
-@-o-keyframes load-background-image {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
-}
-@keyframes load-background-image {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
-}
-
 .landing-background {
   background-image: url(../content/DCK_header_image/Header_image.png);
   background-repeat: no-repeat;
   background-size: auto 100%;
-  -webkit-animation: 2s ease-out 1 load-background-image; /* Safari 4+ */
-  -moz-animation:  2s ease-out 1 load-background-image; /* Fx 5+ */
-  -o-animation:    2s ease-out 1 load-background-image; /* Opera 12+ */
-  animation:       2s ease-out 1 load-background-image; /* IE 10+, Fx 29+ */
 }
 
 .landing-background .main-logo {
