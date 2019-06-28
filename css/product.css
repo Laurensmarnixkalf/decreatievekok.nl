@@ -2,6 +2,15 @@
   max-width: 960px;
 }
 
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url(../content/DCK_header_image/Header_image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /*
  * Custom translucent site header
  */
@@ -58,6 +67,11 @@
   text-align: center;
 }
 
+.navbar-brand img {
+  max-height: 28px;
+  max-width: auto;
+}
+
 .hide-nav {
   display: none;
 }
@@ -74,16 +88,6 @@ h2:hover {
   color: #FD9CBD;
   text-decoration: none;
   transition: ease-in-out color .2s;
-}
-
-.landing-background {
-  background-image: url(../content/DCK_header_image/Header_image.png);
-  background-repeat: no-repeat;
-  background-size: auto 100%;
-}
-
-.landing-background .main-logo {
-  opacity: 1;
 }
 
 .main-logo img {
