@@ -13,6 +13,8 @@
         <!-- GA Analytics -->
         
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <!-- Montserrat Alternates font-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet">
 
 
         <!-- Custom styles -->
@@ -33,7 +35,7 @@
   <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top transparent" id="nav-opacity">
   <div class="container">
     <a class="navbar-brand" href="index.html">
       De Creatieve Kok
@@ -44,17 +46,12 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home
-            <span class="sr-only">(current)</span>
-          </a>
-        </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">Over mij</a>
+          <a class="nav-link custom-link" id="custom-link" href="about.html">Over mij</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="projecten.html">Projecten</a>
-        </li>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link" href="contact-form.html">Contact</a>
         </li>
@@ -65,11 +62,11 @@
 
     <!-- MAIN LANDING PAGE -->
     <!-- Full Page Image Header with Vertically Centered Content -->
-<header class="masthead">
+<header class="top-banner">
     <div class="container h-100">
       <div class="row h-100 align-items-center">
         <div class="col-12 text-center">
-          <h1 class="font-weight-light">Branding en graphic design</h1>
+          <h1 class="font-weight-light">Illustrator, grafisch ontwerper en branding specialist.</h1>
           <p class="lead">Creatief en effectief in communicatie</p>
         </div>
       </div>
@@ -78,100 +75,47 @@
 
     <!-- INTRODUCTIE ELEMENT -->
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-          <a href="about.html">
-            <h2 class="display-5">Hallo! Ik ben Shanna</h2>
-          </a>
-          <p class="lead">Visueel vormgever en Branding professional</p>
-        </div>
-        <div class="project"><img src="content/Small images/Satte.png" alt="Shanna"></div>
-      </div>
-      <div class="bg-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                      <a href="about.html">
-                        <h2 class="display-5">Title</h2>
-                      </a>
-                    </div>
-                </div>
-                <div class="row">
-                  <div class="col-12">
-                    <p>Het liefst ben ik de gehele dag creatief bezig. Om je een voorbeeld te geven, mijn boodschappenlijstjes maak ik op in Adobe indesign, ik vind het super leuk om te doen en waarom mag een boodschappenlijstje er niet goed uitzien? ;) <br>Goed verzorgde communicatie zorgt ervoor dat wij onze boodschap goed overbrengen. Visuele vormgeving is daar een zeer belangrijk (vaak ondershat!) onderdeel van. Ik kan je helpen om je visuele vormgeving naar een hoger niveau te tillen.
-                    </p>
-                  </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                      <a href="about.html">
-                        <h2 class="display-5">Skillset</h2>
-                      </a>
-                    </div>
-                </div>
-                <div class="row">
-                  <div class="col-6">
-                    Adobe illustrator
-                  </div>
-                  <div class="col-6">
-                    <div class="progress">
-                      <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
-                        aria-valuemax="100">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-6">
-                    Adobe indesign
-                  </div>
-                  <div class="col-6">
-                    <div class="progress">
-                      <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
-                        aria-valuemax="100">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="row">
-                  <div class="col-6">
-                    Adobe photoshop
-                  </div>
-                  <div class="col-6">
-                    <div class="progress">
-                      <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
-                        aria-valuemax="100">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-6">
-                    Sketch
-                  </div>
-                  <div class="col-6">
-                    <div class="progress">
-                      <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
-                        aria-valuemax="100">
-                      </div>
-                    </div>
-                  </div>
-                </div>
+      <div class="container">
+        <div class="row mt-5 mb-5">
+          <div class="col-lg-1 col-md-1">
+          </div>
+          <div class="col-lg-6 col-md-6 col-12 line-height-30">
+              <h1 class="display-5">Hallo! Ik ben Shanna.</h1>
+              <p class="">Ik ben Shanna Kok en ik ben een grafisch ontwerper en illustrator in hart en nieren.
+                  Wanneer je een concept
+          voor een product, dienst of actie hebt ontwikkeld, komt de grote vraag hoe je door middel van
+          (visuele) communicatie de juiste doelgroep te pakken kan krijgen. Daar ligt mijn echte passie; een verhaal
+          overbrengen.</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12 call-1">
+              <h2 class="display-5 font-weight-light text-white">Kan ik je helpen?</h1>
+              <p class="lead text-white">Neem contact op, dan bekijken we de mogelijkheden!</p>
+              <a href="contact-form.html"><button class="btn">Contact</button></a>
+          </div>
+          <div class="col-lg-1 col-md-1">
           </div>
         </div>
       </div>
     </div>
 
+    <!-- S AND R IMAGE SECTION -->
+    <!-- <div class="container"> -->
+        <div class="row bg-light">
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6 col-12 text-center">
+            <img style="width: 70%" src="content/Big images/banner2.png">
+          </div>
+          <div class="col-lg-3"></div>
+        </div>
+      <!-- </div> -->
+
+
     <!-- GRAPHICS GALLERY -->
 <div class="container">
 
-    <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Mijn werk</h1>
+    <h1 class="font-weight-light text-center text-lg-left mt-5 mb-5">Mijn werk.</h1>
   
-    <hr class="mt-2 mb-5">
-  
-    <div class="row text-center text-lg-left">
+    <div class="row text-center text-lg-left pb-5">
   
       <div class="col-lg-3 col-md-4 col-6">
         <a href="#" class="d-block mb-4 h-100">
@@ -234,73 +178,98 @@
             </a>
       </div>
     </div>
-  
+
+    <!-- MORE OF MY PROJECTS - POSTPONED -->
+    <!-- <div class="row no-gutters mt-4 mb-5">
+      <div class="col-12 bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-8">
+                <h1 class="mt-5 mb-5 ml-5">Bekijk hier meer van mijn projecten!</h1>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-2">
+                <a href="projecten.html"><button class="btn mt-5">Bekijk</button></a>
+            </div>
+            <div class="col-1"></div>
+          </div>
+        </div>
+      </div>
+    </div>  -->
+
   </div>
-  <!-- /.container -->
 
     <!-- SPOTLIGHT ELEMENT -->
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-          <a href="cartoon.html">
-            <h2 class="display-5">In de spotlight: Een cartoon van je helden</h2>
-          </a>
-          <p class="lead">Of dat speciale moment waar je helaas geen foto van hebt</p>
+    
+        <div class="row bg-light">
+          <div class="col-lg-1 bg-green"></div>
+          <div class="col-lg-10">
+            <div class="row">
+              <div class="col-lg-5 col-12 bg-green pl-5 pr-5 pb-5 pt-5 line-height-30 text-white">
+                <h1 class="display-5 text-white">Uitgelicht:</h1>
+                <p class="text-white">Bobbie
+                  (mijn rechterhand) en Buddy (de eeuwige puppy) waren mijn maatjes waarmee ik ben
+                  opgegroeid. Een ander lid van de roedel was Iso. Een super eigenwijs en pittig paardje
+                  die mijn hart heeft gestolen! Soms zijn dingen je zo dierbaar, dat je ze nooit meer kwijt wil.
+                  Helaas duurt niet alles voor eeuwig, een mooie illustratie wel!</p>
+              </div>
+              <div class="col-lg-6 col-12 mt-2 mb-2">
+                <div class="row h-100">
+                  <div class="col-1"></div>
+                  <div class="col-10 my-auto text-center"><img style="width: 100%" src="content/Big images/cartoon.png"></div>
+                  <div class="col-1"></div>
+                </div>
+              </div>
+              <div class="col-lg-1"></div>
+            </div>
+          </div>
         </div>
-        <div class="project"><img src="content/DCK_projecten/cartoon-poster.svg" alt="Project 6: Balloons"></div>
+
+    <!-- ROBIN BIKE -->
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-3"></div>
+        <div class="col-6">
+          <img style="width: 100%" src="content/Big images/banner3.png">
+        </div>
+        <div class="col-3"></div>
       </div>
     </div>
     
     <!-- CONTACT ELEMENT -->
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
+    <div class="row bg-green pt-4 pb-4 mt-4 mb-5 pl-2 pr-2 text-white">
+      <div class="col-12 text-center overflow-hidden pt-3 pb-3"> 
+            <h1 class="">Ben je enthousiast geworden?</h1>
+          <p class="lead text-white">Ik denk graag met je mee. Vul het formulier in bij 'Contact' en neem direct contact met mij op!</p>
           <a href="contact-form.html">
-            <h2 class="display-5">Creatieve hulp nodig?</h2>
+          <button type="button" class="btn">Neem contact op</button>
           </a>
-          <p class="lead">Twijfel niet, altijd persoonlijk contact!</p>
-          <button type="button" class="btn btn-outline-success">Neem contact op</button>
-        </div>
       </div>
+    </div>
+
+    <!-- MY CUSTOMERS -->
+    <div class="container">
+    <div class="row mt-4 mb-5">
+        <div class="col-12 text-center overflow-hidden"> 
+              <h1 class="">Mijn klanten.</h1>
+            </a>
+        </div>
+    </div>
+        <div class="row mt-4 mb-5">
+          <div class="col-4 text-center"><img style="width: 80%" src="content/Logos/heutink.png"></div>
+          <div class="col-4 text-center"><img style="width: 80%" src="content/Logos/sense.jpg"></div>
+          <div class="col-4 text-center"><img style="width: 30%" src="content/Logos/kleuteruni.png"></div>
+        </div>
     </div>
 
     <!-- FOOTER -->
     <footer class="container py-5">
       <div class="row">
-        <div class="col-12 col-md">
+        <div class="col-12 col-md text-center">
+            <small class="d-block mb-3 text-muted">Website door De Creatieve Kok.</small>
           <small class="d-block mb-3 text-muted">&copy; 2018-2019</small>
         </div>
-        <div class="col-6 col-md">
-          <h5>Projecten</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="limbicare.html">Limbicare</a></li>
-            <li><a class="text-muted" href="paratingle.html">Paratingle</a></li>
-            <li><a class="text-muted" href="meek-it">Meek-it</a></li>
-            <li><a class="text-muted" href="niceday">NiceDay</a></li>
-            <li><a class="text-muted" href="backpack">Mijn rugzakje</a></li>
-    
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Producten & diensten</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="kaartje-hazel.html">Geboortjekaartje meisje</a></li>
-            <li><a class="text-muted" href="kaartje-tim.html">Geboortjekaartje jongen</a></li>
-            <li><a class="text-muted" href="kaartje-tipi.html">Geboortjekaartje tipi</a></li>
-            <li><a class="text-muted" href="posters.html">Posters</a></li>
-            <li><a class="text-muted" href="cartoon.html">Cartoon</a></li>
-            <li><a class="text-muted" href="prijzen.html">Design mogelijkheden</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Info</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="about.html">Over mij</a></li>
-            <li><a class="text-muted" href="contact.html">Contact</a></li>
-            <!-- <li><a class="text-muted" href="hoeikwerk.html">Hoe ik werk</a></li> -->
-            <li><a class="text-muted" href="prijzen.html">Prijzen</a></li>
-          </ul>
-        </div>
+       
       </div>
     </footer>
 

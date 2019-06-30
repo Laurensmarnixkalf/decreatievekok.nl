@@ -2,10 +2,19 @@
   max-width: 960px;
 }
 
-.masthead {
+.top-banner {
   height: 100vh;
   min-height: 500px;
-  background-image: url(../content/DCK_header_image/Header_image.png);
+  background-image: url(../content/Big\ images/banner1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.in-between-banner {
+  height: 30vh;
+  min-height: 300px;
+  background-image: url(../content/Big\ images/banner2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,20 +24,8 @@
  * Custom translucent site header
  */
 
-.site-header {
-  background-color: white;
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
+#nav-opacity {
   opacity: 0.8;
-  display: none;
-}
-.site-header a {
-  color: black;
-  transition: ease-in-out color .2s;
-}
-.site-header a:hover {
-  color: #5b5a68;
-  text-decoration: none;
 }
 
 /*
@@ -59,6 +56,33 @@
  * Custom CSS
  */
 
+.call-1 {
+  background-color: #5e9682;
+  padding: 20px;
+  margin: 20px;
+}
+
+.bg-green {
+  background-color: #5e9682;
+}
+
+.call-3 {
+  background-color: #5e9682;
+}
+
+.call-1 p {
+  margin: 25px 0px 25px 0px;
+  font-weight: lighter;
+}
+
+.call-1 button {
+  padding: 10px 40px 10px 40px;
+}
+
+.line-height-30 {
+  line-height: 30px;
+}
+
 .link-color a {
   color: #5b5a68;
   margin: auto;
@@ -84,12 +108,6 @@
   display: none;
 }
 
-h2:hover {
-  color: #FD9CBD;
-  text-decoration: none;
-  transition: ease-in-out color .2s;
-}
-
 .main-logo img {
   max-width: 800px;
   height: auto;
@@ -105,14 +123,6 @@ h2:hover {
 .creatievekok:hover {
   background-color: #FD9CBD;
   border-color: transparent;
-}
-
-.display-5 {
-  color: black;
-}
-
-.display-6 {
-  color: #FD9CBD;
 }
 
 .project img {
